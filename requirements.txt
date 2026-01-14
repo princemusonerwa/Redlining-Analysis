@@ -1,0 +1,32 @@
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+lightgbm>=3.3.0
+catboost>=1.1.0
+
+# Big Data Processing
+pyspark>=3.3.0
+pyarrow>=10.0.0
+
+# Fairness & Interpretability
+fairlearn>=0.9.0
+shap>=0.41.0
+
+# Statistical Analysis
+statsmodels>=0.14.0
+
+# Progress Bars
+tqdm>=4.64.0
+
+# Jupyter Notebook Support
+jupyter>=1.0.0
+ipykernel>=6.20.0
+
