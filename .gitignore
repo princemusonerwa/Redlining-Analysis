@@ -1,17 +1,12 @@
-# Python
+.venv/
 __pycache__/
 *.pyc
-*.pyo
-
-# Virtual Environments
-venv/
-env/
-.venv
-
-# Jupyter Notebook
-.ipynb_checkpoints/
-.virtual_documents/
-
-# Project specific
-*.docx
-*.csv
+.vscode/
+notebooks
+catboost_info/
+data/
+outputs/
+outputs_sample/
+outputs_smoke/
+validation/synthetic.csv
+validation/_pycache__/
