@@ -1,4 +1,4 @@
-"""Build a self-contained tabbed HTML report from the integrated s11 report.
+"""Build a self-contained tabbed HTML report from the integrated s12 report.
 
 Prefer: python run_all.py --publish (also validates current prerequisites).
 Standalone: python publish_report.py --output-dir outputs
@@ -17,9 +17,9 @@ def main():
     p.add_argument('--output-dir', type=Path, default=config.OUT)
     a = p.parse_args()
     root = a.output_dir.resolve()
-    source = root / 's11_report/sections.json'
+    source = root / 's12_report/sections.json'
     if not source.exists():
-        p.error(f'Missing {source}; run through s11_report first.')
+        p.error(f'Missing {source}; run through s12_report first.')
     data = json.loads(source.read_text(encoding='utf-8'))
     esc = html.escape
     buttons, panes = [], []

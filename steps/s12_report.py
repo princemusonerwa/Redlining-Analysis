@@ -1,7 +1,7 @@
-"""Step 11 - assemble every step's saved results into one report.
+"""Step 12 - assemble every step's saved results into one report.
 
-Writes outputs/s11_report/REPORT.md (figures linked from the step folders) and
-outputs/s11_report/report.html (self-contained: figures embedded, ready to publish).
+Writes outputs/s12_report/REPORT.md (figures linked from the step folders) and
+outputs/s12_report/report.html (self-contained: figures embedded, ready to publish).
 Interpretation sentences are generated from the numbers, so they stay correct
 when the pipeline is re-run.
 """
@@ -21,7 +21,7 @@ import config
 from common import save_json
 from common import load_json, mark_done, step_dir
 
-NAME = "s11_report"
+NAME = "s12_report"
 
 
 def pp(x, d=1, sign=True):
